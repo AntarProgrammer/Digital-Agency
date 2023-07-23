@@ -2,6 +2,7 @@
     margin: 0px;
     padding: 0px;
 }
+
 .nav-container{
     display: flex;
     justify-content: space-around;
@@ -147,6 +148,33 @@
 }
 
 
+.blog-title{
+    color: black;
+    text-align: center;
+    margin: 50px;
+}
+
+.card{
+    width: 350px;
+    height: 400px;
+    box-shadow: 4px 8px 4px gray;
+    border-radius: 5px;
+}
+.blog-img{
+    width: 100%;
+    border-radius: 5px;
+}
+.card-title{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.cards{
+    display: flex;
+    /* align-items: center; */
+    gap: 20px;
+    padding: 50px 50px;
+    justify-content: space-evenly;
+}
 
 
 
