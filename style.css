@@ -55,6 +55,97 @@
     color: red;
 }
 
+.service-container{
+    height: 100vh;
+    background-image: url("./asset/image/footerbg.png"), 
+    linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.9)) ;
+    background-blend-mode: overlay;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+.service-title{
+    font-size: 35px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.left-side{
+    padding: 50px;
+}
+
+
+.service-description{
+    width: 50%;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.lorem{
+    font-size: 15px;
+    padding: 10px;
+}
+.icon{
+    width: 70px;
+    margin-bottom: 20px;
+}
+.box{
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    padding: 50px;
+    background-color: white;
+    color: black;
+    border-radius: 8px;
+}
+.box p{
+    font-size: 20px;
+    font-weight: bold;
+}
+.all-box{
+    display: flex;
+    gap: 5px;
+    margin-top: 5px;
+}
+.author-img{
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+}
+.author-container{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.author-profile{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border-right: 2px solid red;
+    padding-right: 20px;
+}
+
+.phone-call{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.appoitment-container{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: auto;
+    padding: 30px;
+    background-color: rgb(254, 30, 30);
+    border-radius: 10px;
+    margin-top: -60px;
+    align-items: center;
+}
+
 
 
 
